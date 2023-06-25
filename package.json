@@ -1,0 +1,38 @@
+{
+  "name": "tarzan-code-snippets",
+  "displayName": "tarzan-code-snippets",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "Bench",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiangruiqi/tarzan-code-snippets.git"
+  },
+  "homepage": "https://github.com/jiangruiqi/tarzan-code-snippets/blob/master/README.md"
+}
