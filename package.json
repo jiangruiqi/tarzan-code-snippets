@@ -2,7 +2,7 @@
   "name": "tarzan-code-snippets",
   "displayName": "tarzan-code-snippets",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Bench",
   "engines": {
     "vscode": "^1.56.0"
@@ -12,6 +12,22 @@
   ],
   "contributes": {
     "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/pages.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/pages.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/pages.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/pages.code-snippets"
+      },
       {
         "language": "javascript",
         "path": "./snippets/snippets.code-snippets"
